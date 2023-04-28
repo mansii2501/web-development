@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li><a href="#">About me</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <center><h3 >About me</h3></center>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident unde voluptatem temporibus? Voluptatum cumque sint non aspernatur mollitia amet exercitationem, molestias quos rem consectetur ad consequuntur veritatis corporis itaque soluta.</p>
+        </section>
+        <section>
+            <center><h3>Contact Me</h3></center>
+            <form action="./script.js" method="post">
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" placeholder="Type Your Name"  name="name" required maxlength="20">
+                </div><br>
+                <div>
+                    <label for="message">Message</label>
+                    <textarea name="age" id="message" cols="100" rows="5"></textarea>
+                </div><br>
+                <div>
+                    <label for="tel">Phone no.</label>
+                    <input type="tel" placeholder="1234567890" required>
+                </div><br>
+                <div>
+                    <label for="date-time">Date and Time of appointment</label>
+                    <input type="datetime-local">
+                </div><br>
+                <div>
+                    <label for="Contact-Type">Contact via call or whtasapp?</label>
+                    <label for="call">Call</label>
+                    <input type="radio" name="Contact-Type" value="call">
+
+                    <label for="whtasapp">whtasapp</label>
+                    <input type="radio" name="Contact-Type" value="whtasapp">
+                </div><br>
+                <div>
+                    <label for="time-slot">Time Slot:</label><br>
+                    <label for="11-12">11am-12pm</label>
+                    <input type="checkbox">
+
+                    <label for="1-2">1pm-2pm</label>
+                    <input type="checkbox">
+
+                    <label for="4-5">4pm-5pm</label>
+                    <input type="checkbox">
+
+                </div><br>
+                <div>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </div><br>
+            </form>
+        </section>
+        <section>
+            <h3>
+                <center><h3>Project</h3></center>
+                <table border="1" cellspacing ="0" align="center">
+                    <tr>
+                        <th>Id</th>
+                        <th>name</th>
+                        <th>description</th>
+                        <th>project link</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>html-app</td>
+                        <td>This contains html files from where you can take the help.</td>
+                        <td><a href="google.com">This contains html files from where you can take the help.</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Task-app</td>
+                        <td>This contains html files from where you can take the help.</td>
+                        <td><a href="google.com">This contains html files from where you can take the help.</a></td>
+                    </tr>
+                </table>
+            </h3>
+        </section>
+    </main>
+    <footer>
+        <center><h3 >You can also connect to me on: </h3></center>
+        <center>
+            <div >
+                <a href="#" target="_blank">gmail</a>
+                <a href="#" target="_blank">github</a>
+                <a href="#" target ="_blank">LinkedIn</a>
+            </div>
+        </center>
+    </footer>
+</body>
+</html>
